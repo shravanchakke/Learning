@@ -1,0 +1,16 @@
+name=str(input("Please enter your name : "))
+std=str(input("Please enter your Standrad and division : "))
+rollno=int(input("Please enter your roll no  : "))
+
+print("Thanks for information")
+print("Hi.."+str(name)+"\n"+"You are in "+str(std)+" and your Roll no is "+str(rollno))
+
+Mar=int(input("Please enter your Marathi marks : "))
+Math=int(input("Please enter your Maths marks : "))
+phy=int(input("Please enter your python marks : "))
+
+t=int(input("Please enter total marks of all sub :"))
+
+per=float(((Mar+Math+phy)/t)*100)
+
+print("Your final percentage is "+str(per))
